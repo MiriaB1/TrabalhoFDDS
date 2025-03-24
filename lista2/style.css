@@ -64,6 +64,7 @@ article{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
     
 }
 
@@ -91,7 +92,7 @@ caption{
 
 thead{
     background-color: #E6D5B8;
-    color: #361c15;
+    color: #361c1588;
 }
 
 
