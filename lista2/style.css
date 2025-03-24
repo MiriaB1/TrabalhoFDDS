@@ -1,0 +1,114 @@
+@charset "UTF-8";
+:root{
+    --cor0:var(#FAF3E0);
+    --cor1:var(#E6D5B8);
+    --cor2:var(#C4A484);
+    --cor3:var(#8D6E63);  
+    --cor4:var(#361c15);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+
+    background-image:linear-gradient(to top, #361c15, transparent) ;
+    min-height: 100px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color:#f8d408;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+}
+
+body{
+    background: #050505 url(IMAGEM/Ramificacao.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    
+     
+}
+
+main{
+    background-color: white;
+    padding: 50px;
+    
+}
+
+main h1{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 15px 10px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+
+
+article{
+    padding-bottom: 30px;
+}
+
+#tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+table{
+    border-collapse: collapse;
+    
+    
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+caption{
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #C4A484;
+    padding: 5px;
+}
+
+thead{
+    background-color: #E6D5B8;
+    color: #361c15;
+}
+
+
+
+footer{
+    background-color: #361c15;
+    color: rgb(247, 248, 248);
+    padding: 5px;
+
+}
+
+footer > p{
+    margin: 10px;
+    
+}
+
+
+
+
+ 
