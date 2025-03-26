@@ -12,6 +12,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 header{
@@ -35,21 +36,27 @@ body{
     background-size: cover;
     height: 100vh;
     
+    
      
 }
 
 main{
     background-color: white;
-    padding: 50px;
+    padding: 15px;
+    
     
 }
 
 main h1{
-    padding-bottom: 20px;
+    padding: 20px;
+}
+
+main h2{
+    padding: 15px;
 }
 
 p{
-    margin: 15px 10px;
+    margin: 15px;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
@@ -135,6 +142,13 @@ article{
     padding-bottom: 30px;
 }
 
+footer{
+    background-color: #361c15;
+    padding: 4px;
+
+}
+
+
 
 footer a{
     color: #E6D5B8;
@@ -143,7 +157,5 @@ footer a{
     
 }
 
-#volta{
-    padding: 10px;
-}
+
 
